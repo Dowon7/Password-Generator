@@ -14,14 +14,13 @@ character = ["!", "#", "$", "%", "&", "*", "+", ",", "-", ".", "/", " < ", "=", 
 number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // Letters
 alpha = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-// Space, not sure what this is for but I saw this from a reference
-space = [];
 // Choices declared outside the if statement so they can be concatenated upon condition
 var select;
 // converts letters to uppercase 
 var toUpper = function (x) {
     return x.toUpperCase();
 };
+
 // Uppercase stuff
 alphaCaps = alpha.map(toUpper);
 
@@ -123,7 +122,7 @@ function generatePassword() {
     }
     
     else if (confirmUppercase) {
-        select = space.concat(alphaCaps);
+        select = alphaCaps;
     };
 
     var password = [];
