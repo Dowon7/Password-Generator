@@ -5,10 +5,10 @@ This project was an assignment with the goal to create a password generator that
 The main focus of this project was to further work on my Javascript skills and dip my hands into user interactions with a webpage.
 
 The user is allowed to generate a random password with a character minimum of 8, and a maximum of 128. Alongside options for:
-*special characters 
-*numbers
-*uppercase letters 
-*lowercase letters
+* special characters 
+* numbers
+* uppercase letters 
+* lowercase letters
 
 We were given an HTML and CSS file to work with, so that most of the work went into the Javascript.
 
